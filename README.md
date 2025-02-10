@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: attempting to use an environment variable within the container's CMD instruction without properly setting that variable within the container's environment.  The `Dockerfile` shows the flawed approach, while `Dockerfile-solution` provides the corrected version.
